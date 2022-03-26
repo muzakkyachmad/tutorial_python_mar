@@ -1,6 +1,35 @@
 
 #how to use the function and arguments
 
+car1 = {
+    "make": "Ford",
+    "model": "Fiesta",
+    "mileage": 23000,
+    "fuel consumed": 460
+}
+
+mpg1 = car1["mileage"] / car1["fuel consumed"]
+name = f"{car1['make']}{car1['model']}"
+print(f"{name} does {mpg1} miles per gallon")
+
+#######
+def calculate_mpg2():
+    car2 = {
+    "make": "Ford",
+    "model": "Fiesta",
+    "mileage": 23000,
+    "fuel consumed": 460
+}
+    mpg2 = car2["mileage"] / car2["fuel consumed"]
+    name = f"{car2['make']}{car2['model']}"
+    print(f"{name} does {mpg2} miles per gallon")
+
+calculate_mpg2()
+
+
+# changing the car2 data to have more data
+
+
 cars = [
     {"make": "Ford", "model": "Fiesta", "mileage": 23000, "fuel consumed": 460},
     {"make": "Ford", "model": "Focus", "mileage": 17000, "fuel consumed": 350},
@@ -19,6 +48,18 @@ def calculate_mpg(car):
 
 for car in cars:
     calculate_mpg(car)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
