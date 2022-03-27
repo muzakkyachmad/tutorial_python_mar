@@ -51,7 +51,18 @@ for car in cars:
 
 
 
+def calculate_mpg1(car_to_calculate):
+    mpg2 = car_to_calculate["mileage"] / car_to_calculate["fuel_consumed"]
+    name2 = f"{car_to_calculate['make']} {car_to_calculate['model']}"
+    print(f"{name2} does {mpg2} miles per gallon")
 
+calculate_mpg1({
+"make": "Ford",
+    "model": "Fiesta",
+    "mileage": 23000,
+    "fuel_consumed": 460
+
+})
 
 
 
