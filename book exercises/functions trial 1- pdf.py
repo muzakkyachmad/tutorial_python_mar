@@ -33,10 +33,8 @@ z = add(x,y)
 
 print(z)
 
-#example 6.1.2 - creating a separate python file for the function
-def average(x,y):
+# sub 6.2 functions with multiple return values
 
-    return (x + y) / 2
 
 
 
