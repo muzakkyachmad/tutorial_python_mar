@@ -1,4 +1,4 @@
-from myfunction_book_trial.py import average
+from myfunction_book_trial import average
 
 a = 2
 b = 3

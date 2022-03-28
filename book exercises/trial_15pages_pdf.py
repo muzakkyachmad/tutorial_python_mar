@@ -44,9 +44,32 @@ print("value in built variable name is: ",__name__)
 
 
 
-#avoiding for loops vector functions
+#20. avoiding for loops vector functions
 
-import numpy
+import numpy as np
+
+#calculate 100 values for x and y without a for loop
+x = np.linspace(0, 2* np.pi, 100)
+y = np.sin(x)
+
+print(x)
+print(y)
+
+
+#21. diagrams
+from numpy import linspace, sin, exp, pip
+import matplotlib.pyplot as mp
+
+#calculate 500 values for x and y without a for loop
+x = linspace(0, 10*pi, 500)
+y = sin(x) * exp(-x/10)
+
+#to make diagram
+mp.plot(x,y)
+mp.show()
+
+
+
 
 
 

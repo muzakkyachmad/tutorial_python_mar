@@ -33,3 +33,4 @@ data = [1, 5, 6, 3, 12, 3]
 totalsum, mean = stat(data)
 print(totalsum, mean)
 
+#6.3 exercises
