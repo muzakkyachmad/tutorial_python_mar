@@ -31,6 +31,7 @@ for car in cars:
     print_car_info(car)
 
 
+####another example on math operations
 def divide(x, y):
     if y == 0:
         return "You tried to divide by zero!"

@@ -26,6 +26,12 @@ def calculate_mpg2():
 
 calculate_mpg2()
 
+#structure of calculate_mpg2()
+
+#def calculate_mpg(parameter)
+    #variable to calculate/execute the formula
+#calculate_mpg(argument) argument can be dict, list, tuple
+
 
 # changing the car2 data to have more data
 
@@ -61,8 +67,11 @@ calculate_mpg1({
     "model": "Fiesta",
     "mileage": 23000,
     "fuel_consumed": 460
-
 })
+
+
+
+
 
 
 
