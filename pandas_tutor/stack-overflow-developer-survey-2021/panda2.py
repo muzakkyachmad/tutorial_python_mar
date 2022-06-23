@@ -3,6 +3,7 @@
 
 import pandas as pd
 
+
 #creating a dataframe from a set of dictionary
 people = {
     "first": ["corey", "jane", "john"],
@@ -11,20 +12,26 @@ people = {
 }
 
 df1 = pd.DataFrame(people)
-#print(df1)
+print(df1)
 
 df2 = pd.DataFrame(people['email'])
-#print(df2)
+print(df2)
 
 df3 = type(df2)
-#print(df3)
+print(df3)
 
-#df4 = pd.DataFrame[df.count]
-#print(df4)
+df4 = df1[['last', 'email']] #to access a multiple columns
+print(df4)
 
-df5 = pd.DataFrame(df['last', 'email']) #whats wrong?
-#print(df5)
+df5 = df1.columns #to access the columns
+print(df5)
 
-df6 = pd.DataFrame[df.columns]
+df6 = df1.head(1)
 print(df6)
 
+#to access a certain data in a row and columns more specific - ok and use this one
+df7 = df1.iloc[[0, 1], 2]
+print(df7)
+
+df8 = df1.loc[[0, 1], ['email', 'last']]
+print(df8)
